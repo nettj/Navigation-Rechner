@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaschenrechnerFragment">
+
+    <TextView
+        android:id="@+id/eingabeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        android:text="3x3"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:background="#66000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
+
+        <Button
+            android:id="@+id/acBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="AC"
+            android:layout_margin="1dp"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/klammerBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="( )"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/prozentBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="%"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/durchBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="/"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
+
+        <Button
+            android:id="@+id/siebenBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="7"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/achtBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="8"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/neunBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="9"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/malBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="X"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
+
+        <Button
+            android:id="@+id/vierBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="4"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/fuenfBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="5"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/sechsBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="6"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/minusBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="-"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
+
+        <Button
+            android:id="@+id/einsBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="1"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/zweiBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="2"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/dreiBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="3"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/plusBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="+"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
+
+        <Button
+            android:id="@+id/nullBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="0"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/kommaBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text=","
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/loeschBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/baseline_delete_forever_24"
+
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/gleichBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="="
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
