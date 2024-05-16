@@ -70,5 +70,9 @@ class TaschenrechnerFragment : Fragment() {
 
         }
 
+        binding.acBTN.setOnClickListener {
+            viewModel.reset()
+        }
+
     }
 }

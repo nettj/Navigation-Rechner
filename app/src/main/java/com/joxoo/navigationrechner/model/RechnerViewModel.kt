@@ -36,6 +36,7 @@ class RechnerViewModel : ViewModel() {
     fun reset() {
         numberList.clear()
         operatorList.clear()
+        _textValue.value = ""
     }
 
     fun calculate(): Int {
