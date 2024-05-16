@@ -24,7 +24,7 @@ class TaschenrechnerFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentTaschenrechnerBinding.inflate(inflater)
         return binding.root
     }
